@@ -9,7 +9,7 @@ function ArticleCard({ articleData }) {
             </div>
             <div className="articleCard__text">
                 <h2>{articleData.title}</h2>
-                <p>Date</p>
+                <h3>{articleData.publishedDate}</h3>
                 <p>{articleData.blurb}</p>
                 <a href={`article/${articleData.id}`}>Read More</a>
             </div>

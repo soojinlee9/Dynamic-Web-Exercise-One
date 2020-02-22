@@ -25,7 +25,6 @@
 
 .articleCard__image {
   flex-basis: 30%;
-
 }
 
 .articleCard__image img {
@@ -40,6 +39,16 @@
   
 }
 
+.articleCard__text h2 {
+  font-size: 30px;
+}
+
+.articleCard__text h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 6px;
+}
+
 .articleHeader {
   background-position: center;
   background-size: cover;
@@ -48,7 +57,17 @@
 
 .articleHeaderWrapper {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 640px;
+}
+
+.articleHeaderWrapper h1 {
+  font-size: 64px;
+  font-weight: normal;
+}
+
+.articleHeaderWrapper h2 {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .articleContent {

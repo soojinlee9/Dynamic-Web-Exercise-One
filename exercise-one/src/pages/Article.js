@@ -25,7 +25,7 @@ function Article() {
                 <div className="articleHeaderWrapper">
                     <h1>{article.title}</h1>
                     <p>{article.publishedDate}</p>
-                    <p>{article.blurb}</p>
+                    <h2>{article.blurb}</h2>
                 </div>
             </header>
             <main className="articleContent">
